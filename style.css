@@ -1,0 +1,95 @@
+body{
+    margin:0px;
+    font-family: 'montserrat', sans-serif;
+}
+
+.main-section{
+    padding: 20px;
+}
+
+.image-container{
+    height: 500px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.franciaturismo.net/wp-content/uploads/sites/4/parigi-hd.jpg);
+}
+.image-containerny{
+    height: 500px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.scoprirenewyork.com/f/estados-unidos/nueva-york/guia/nueva-york.jpg);
+}
+.image-containerdubai{
+    height: 500px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.cosafarei.it/wp-content/uploads/2019/01/Dubai-principale-1366x691.jpg);
+}
+
+.image-containerberlino{
+    height: 500px;
+    background-repeat: no-repeat;
+    background-image: url(https://blog.toratoratravel.com/wp-content/uploads/2021/02/migliori-locali-di-berlino.jpg);
+}
+
+h1{
+    font-family: 'prata', sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+}
+
+h3{
+    font-family: 'prata', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+h1,h3{
+    margin-bottom: 0;
+}
+
+h6{
+    padding: 22px;
+    margin-bottom: 0px;
+    margin-top: 56px;
+    color:white;
+    border-radius: 6px;
+    background: linear-gradient(90deg, #6e6448, #ffd87c);
+}
+#ny{
+    background: linear-gradient(90deg, #7a8281, #9cc5bb);
+}
+#dubai{
+    background: linear-gradient(90deg, #fc9a6b, #635672);
+    color: orange;
+}
+
+#berlino{
+    background: linear-gradient(90deg, #555eb7, #435059);
+    color: rgb(132, 108, 63);
+    
+}
+
+a{
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: none;
+    color:#6e6448
+}
+a:hover{
+    color: #ffd87c;
+}
+
+a:hover .berlino{
+    color: #555eb7;
+}
+
+li{
+    border-bottom:solid;
+    border-color: #dfdfdf;
+}
+
+.footer{
+    max-width: 100%;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding:16px;
+    text-align: center;
+}
